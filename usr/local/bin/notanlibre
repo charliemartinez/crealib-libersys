@@ -1,10 +1,14 @@
-#!/bin/bash
 
-# Nombre:    CREALIB LIBERSYS - Comando "notanlibre"
-# Autor:    Charlie Martínez® <cmartinez@quirinux.org>
-# Licencia:    https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
-# Descripción:    Reinstalar componentes privativos desinstalados con el comando "libre"
-# Versión:    1.0
+#!/bin/bash
+# ===============================================================================
+# Nombre:            Crealib Libersys - Comando "notanlibre"
+# Autor:             Charlie Martinez® <cmartinez@quirinux.org>
+# Licencia:          https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+# Utilidad:          Desinstalar componentes privativos de un sistema GNU/Linux
+# Distro:            Quirinux 2.x - Devuan 5 y 6, Debian 12 y 13
+# ===============================================================================
+# Ejecutar con permisos de administrador
+# ===============================================================================
 
 FOLDER_NONFREE="/opt/libersys"
 FOLDER_UNINSTALLED="$FOLDER_NONFREE/desinstalados"
