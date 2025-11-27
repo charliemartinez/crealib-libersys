@@ -1,10 +1,14 @@
-#!/bin/bash
 
-# Nombre:    CREALIB LIBERSYS - Comando "libre"
-# Autor:    Charlie Martínez® <cmartinez@quirinux.org>
-# Licencia:    https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
-# Descripción:    Desinstalar componentes privativos de un sistema GNU/Linux
-# Versión:    1.0
+#!/bin/bash
+# ===============================================================================
+# Nombre:            Crealib Libersys - Comando "libre"
+# Autor:             Charlie Martinez® <cmartinez@quirinux.org>
+# Licencia:          https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+# Utilidad:          Desinstalar componentes privativos de un sistema GNU/Linux
+# Distro:            Quirinux 2.x (Devuan 5, Devuan 6, Debian 12, Debian 13)
+# ===============================================================================
+# Ejecutar con permisos de administrador
+# ===============================================================================
 
 FOLDER_NONFREE="/opt/libersys"
 FILE_LIST="$FOLDER_NONFREE/list"
@@ -192,7 +196,10 @@ if [ $continue_exit_code -eq 0 ]; then
         mv "$FOLDER_DEBS"/"${package}"_*.deb "$FOLDER_UNINSTALLED"
         echo "Moviendo ${package}_*.deb a $FOLDER_UNINSTALLED"
     done
-
+    # Corrección a bug detectado por Riky Linux, ahora el script borrará la cache. 
+    # Probado en Zorín.
+    apt autoremove 
+    apt-get clean
     # Mensaje de despedida
     clear
     dialog --backtitle 'Crealib Libersys, comando "libre" by Charlie Martínez®' \
