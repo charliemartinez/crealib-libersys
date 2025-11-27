@@ -9,6 +9,7 @@
 ---
 ![Contributors](https://img.shields.io/github/contributors/charliemartinez/crealib-libersys) ![Stars](https://img.shields.io/github/stars/charliemartinez/crealib-libersys) ![Forks](https://img.shields.io/github/forks/charliemartinez/crealib-libersys) ![Issues](https://img.shields.io/github/issues/charliemartinez/crealib-libersys) ![Last Commit](https://img.shields.io/github/last-commit/charliemartinez/crealib-libersys) ![Activity](https://img.shields.io/github/commit-activity/m/charliemartinez/crealib-libersys) ![Repo Size](https://img.shields.io/github/repo-size/charliemartinez/crealib-libersys) ![Lenguaje](https://img.shields.io/badge/Lenguaje-Bash-blue)
 
+
 ---
 
 ## 🧭 Descripción general / Overview
