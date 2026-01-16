@@ -7,7 +7,7 @@
 ![liberar-debian](https://github.com/user-attachments/assets/80ec22f0-7a82-47f9-a914-2e655763bc42)
 
 ---
-![Contributors](https://img.shields.io/github/contributors/charliemartinez/crealib-libersys) ![Stars](https://img.shields.io/github/stars/charliemartinez/crealib-libersys?style=flat) ![Forks](https://img.shields.io/github/forks/charliemartinez/crealib-libersys?style=flat) ![Issues](https://img.shields.io/github/issues/charliemartinez/crealib-libersys) ![Last Commit](https://img.shields.io/github/last-commit/charliemartinez/crealib-libersys) ![Activity](https://img.shields.io/github/commit-activity/m/charliemartinez/crealib-libersys) ![Repo Size](https://img.shields.io/github/repo-size/charliemartinez/crealib-libersys?style=flat) ![Lenguaje](https://img.shields.io/badge/Lenguaje-Bash-blue)
+![Contributors](https://img.shields.io/github/contributors/charliemartinez/crealib-libersys) ![Stars](https://img.shields.io/github/stars/charliemartinez/crealib-libersys?style=flat) ![Forks](https://img.shields.io/github/forks/charliemartinez/crealib-libersys?style=flat) ![Issues](https://img.shields.io/github/issues/charliemartinez/crealib-libersys) ![Last Commit](https://img.shields.io/github/last-commit/charliemartinez/crealib-libersys) ![Repo Size](https://img.shields.io/github/repo-size/charliemartinez/crealib-libersys?style=flat) ![Lenguaje](https://img.shields.io/badge/Lenguaje-Bash-blue)
 
 ---
 
